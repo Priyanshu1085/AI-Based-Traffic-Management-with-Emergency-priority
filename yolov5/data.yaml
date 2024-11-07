@@ -1,0 +1,13 @@
+train: D:\ML\d\vehivle detection 2.v4i.yolov5pytorch\train\train\images
+val:   D:\ML\d\vehivle detection 2.v4i.yolov5pytorch\train\valid\images
+test:  D:\ML\d\vehivle detection 2.v4i.yolov5pytorch\train\test\images
+
+nc: 14
+names: ['Bus', 'angkot', 'becak', 'mobil-Jeep', 'mobil-MPV', 'mobil-SUV', 'mobil-box', 'mobil-hatchback', 'mobil-sedan', 'mobil-van', 'motor', 'pickup', 'sepeda', 'truk']
+
+roboflow:
+  workspace: yusuf-dimas-q1gol
+  project: vehivle-detection-2
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yusuf-dimas-q1gol/vehivle-detection-2/dataset/4
